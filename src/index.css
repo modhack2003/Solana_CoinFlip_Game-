@@ -1,0 +1,37 @@
+@import "@solana/wallet-adapter-react-ui/styles.css"; /* Correct placement */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+  
+  
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+
+
+
+/* For Chrome, Safari, Edge, and Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
